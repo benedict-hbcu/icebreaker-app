@@ -1,0 +1,23 @@
+{
+  "name": "icebreaker-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benedict-hbcu/icebreaker-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benedict-hbcu/icebreaker-app/issues"
+  },
+  "homepage": "https://github.com/benedict-hbcu/icebreaker-app#readme",
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}

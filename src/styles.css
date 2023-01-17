@@ -1,0 +1,68 @@
+/* Define css variables */
+:root {
+  --primary-color: #161b22;
+  --secondary-color: #0d1117;
+  --accent-color: #a0a0a0;
+  --accent-color-light: #fff;
+}
+
+/* Define global styles */
+html {
+  background-color: var(--secondary-color);
+  color: #a0a0a0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  margin: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color-light);
+}
+
+/* Navbar  */
+nav {
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: var(--accent-color-light);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav .app-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--accent-color-light);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
