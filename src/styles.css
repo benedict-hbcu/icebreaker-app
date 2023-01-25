@@ -114,6 +114,7 @@ footer {
   color: var(--accent-color-light);
   margin: 0;
   margin-bottom: 0.25rem;
+  text-decoration: none;
 }
 
 .card .card-header .card-subtitle {
@@ -131,6 +132,22 @@ footer {
 
 .card .card-header .card-subtitle.line-2 {
   color: white;
+}
+
+.card.linked {
+  position: relative;
+}
+
+.card.linked a.link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .question {

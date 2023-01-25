@@ -25,11 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let content = "";
   students.forEach((student) => {
     content += `
-    <div class="card">
+    <div class="card linked">
       <div class="card-header">
         <img class="card-avatar" src="${student.avatar}" />
         <div>
-          <p class="card-title">${student.name}</p>
+          <a href="/profile/${student.name
+            .replace(" ", "-")
+            .toLowerCase()}" class="card-title link">${student.name}</a>
           <p class="card-subtitle line-1">
             ${student.description1}
           </p>
