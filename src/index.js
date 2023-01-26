@@ -4,6 +4,12 @@ const students = [
     avatar: "public/student-avatars/diego-avatar.png",
     description1: "Computer Engineering &ndash; CSU San Bernardino",
     description2: "Frontend Engineer @ Nifty Island 🏝️"
+  },
+  {
+    name: "Ostonya Thomas",
+    avatar: "public/student-avatars/ostonya-avatar.jpg",
+    description1: "Physics &ndash; Benedict College",
+    description2: "Research Intern @ Benedict College 🐅"
   }
 ];
 
