@@ -1,3 +1,7 @@
+/**
+ * Some change for the git demo
+ */
+
 const students = [
   {
     name: "Diego Bernal",
