@@ -4,6 +4,13 @@ const students = [
     avatar: "public/student-avatars/diego-avatar.png",
     description1: "Computer Engineering &ndash; CSU San Bernardino",
     description2: "Frontend Engineer @ Nifty Island 🏝️"
+  },
+  {
+    name: "Alyssa Gerhart",
+    avatar: "public/student-avatars/alyssa-avatar.jpg",
+    description1: "Computer Science; Benedict College",
+    description2: "Future Software Engineer.",
+    dob: "2003-03-05"
   }
 ];
 
