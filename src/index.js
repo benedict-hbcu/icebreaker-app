@@ -6,10 +6,18 @@ const students = [
     description2: "Frontend Engineer @ Nifty Island 🏝️"
   },
   {
+<<<<<<< HEAD
     name: "Ostonya Thomas",
     avatar: "public/student-avatars/ostonya-avatar.jpg",
     description1: "Physics &ndash; Benedict College",
     description2: "Research Intern @ Benedict College 🐅"
+=======
+    name: "Alyssa Gerhart",
+    avatar: "public/student-avatars/alyssa-avatar.jpg",
+    description1: "Computer Science; Benedict College",
+    description2: "Future Software Engineer.",
+    dob: "2003-03-05"
+>>>>>>> main
   }
 ];
 
