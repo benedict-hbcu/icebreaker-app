@@ -4,7 +4,16 @@ const students = [
     avatar: "public/student-avatars/diego-avatar.png",
     description1: "Computer Engineering &ndash; CSU San Bernardino",
     description2: "Frontend Engineer @ Nifty Island 🏝️"
-  }
+  },
+
+  {
+    name: "Dem'i Dale",
+    avatar: "public/student-avatars/Demi-avatar.jpg",
+    description1: "Computer Engineering; Benedict College",
+    description2: "Future engineer",
+    dob: "05/23/2002"
+  },
+
 ];
 
 function getStudents() {
