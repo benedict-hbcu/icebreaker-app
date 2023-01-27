@@ -6,6 +6,13 @@ const students = [
     description2: "Frontend Engineer @ Nifty Island 🏝️"
   },
   {
+    name: "Dem'i Dale",
+    avatar: "public/student-avatars/Demi-avatar.jpg",
+    description1: "Computer Engineering; Benedict College",
+    description2: "Future engineer",
+    dob: "05/23/2002"
+  },
+  {
     name: "Ostonya Thomas",
     avatar: "public/student-avatars/ostonya-avatar.jpg",
     description1: "Physics &ndash; Benedict College",
