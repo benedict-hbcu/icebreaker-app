@@ -25,15 +25,6 @@ const students = [
     description1: "Computer Science; Benedict College",
     description2: "Future Software Engineer.",
     dob: "2003-03-05"
-<<<<<<< HEAD
-  },
-  {
-    name: "Dachanelle Anderson",
-    avatar: "dacha_avatar.jpeg",
-    desription1: "Computer Science; Benedict College",
-    description2: "Future Quality Engineer or Software Engineer",
-    dob: "1998-08-01"
-=======
   }, 
   {  
     name: "Shantel Thomas",
@@ -41,7 +32,6 @@ const students = [
     description1: "Senior &ndash; Computer Science @ Benedict College ",
     description2: "Software Engineer 👩🏾‍💻 ",
     dob: "1997-02-07"
->>>>>>> main
   }
 ];
 
