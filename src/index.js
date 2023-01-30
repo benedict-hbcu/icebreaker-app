@@ -25,6 +25,13 @@ const students = [
     description1: "Computer Science; Benedict College",
     description2: "Future Software Engineer.",
     dob: "2003-03-05"
+  }, 
+  {  
+    name: "Shantel Thomas",
+    avatar: "public/student-avatars/Shantel-avatar.jpeg",
+    description1: "Senior &ndash; Computer Science @ Benedict College ",
+    description2: "Software Engineer 👩🏾‍💻 ",
+    dob: "1997-02-07"
   }
 ];
 
