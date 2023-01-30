@@ -32,7 +32,16 @@ const students = [
     description1: "Senior &ndash; Computer Science @ Benedict College ",
     description2: "Software Engineer 👩🏾‍💻 ",
     dob: "1997-02-07"
+  },
+
+  {
+    name: "Ashanique Moore",
+    avatar: "public/student-avatars/ashanique-avatar.jpeg",
+    desription1: "Computer Science, Benedict College",
+    description2: "Software Engineer",
+    dob: "1998-09-27"
   }
+
 ];
 
 function getStudents() {
