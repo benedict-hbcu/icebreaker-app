@@ -1,52 +1,15 @@
-const students = [
-  {
-    name: "Diego Bernal",
-    avatar: "public/student-avatars/diego-avatar.png",
-    description1: "Computer Engineering &ndash; CSU San Bernardino",
-    description2: "Frontend Engineer @ Nifty Island 🏝️"
-  },
-  {
-    name: "Dem'i Dale",
-    avatar: "public/student-avatars/Demi-avatar.jpg",
-    description1: "Computer Engineering; Benedict College",
-    description2: "Future engineer",
-    dob: "05/23/2002"
-  },
-  {
-    name: "Ostonya Thomas",
-    avatar: "public/student-avatars/ostonya-avatar.jpg",
-    description1: "Physics &ndash; Benedict College",
-    description2: "Research Intern @ Benedict College 🐅",
-    dob: "2002-09-26"
-  },
-  {  
-    name: "Alyssa Gerhart",
-    avatar: "public/student-avatars/alyssa-avatar.jpg",
-    description1: "Computer Science; Benedict College",
-    description2: "Future Software Engineer.",
-    dob: "2003-03-05"
-  }, 
-  {  
-    name: "Shantel Thomas",
-    avatar: "public/student-avatars/Shantel-avatar.jpeg",
-    description1: "Senior &ndash; Computer Science @ Benedict College ",
-    description2: "Software Engineer 👩🏾‍💻 ",
-    dob: "1997-02-07"
-  }
-];
-
 function getStudents() {
-  /**
-   * TODO
-   * make a request to the server to get the list of students
-   *
-   * For now, just return hardcoded data
-   */
-  return students;
+  const studentsApiUrl = "http://localhost:4000/students";
+  return fetch(studentsApiUrl, {
+    method: "GET"
+  })
+    .then((response) => response.json())
+    .then((data) => data)
+    .catch((error) => console.error(error));
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const students = getStudents();
+document.addEventListener("DOMContentLoaded", async () => {
+  const students = await getStudents();
 
   const studentContainer = document.getElementById("student-cards-container");
 
