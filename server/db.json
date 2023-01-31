@@ -5,34 +5,45 @@
       "avatar": "public/student-avatars/diego-avatar.png",
       "description1": "Computer Engineering &ndash; CSU San Bernardino",
       "description2": "Frontend Engineer @ Nifty Island 🏝️",
-      "dob": "1991-08-17"
+      "dob": "1991-08-17",
+      "slug": "diego-bernal",
+      "id": 1
     },
     {
       "name": "Dem'i Dale",
       "avatar": "public/student-avatars/Demi-avatar.jpg",
       "description1": "Computer Engineering; Benedict College",
       "description2": "Future engineer",
-      "dob": "2002-05-23"
+      "dob": "2002-05-23",
+      "slug": "demi-dale",
+      "id": 2
     },
     {
       "name": "Ostonya Thomas",
       "avatar": "public/student-avatars/ostonya-avatar.jpg",
       "description1": "Physics &ndash; Benedict College",
       "description2": "Research Intern @ Benedict College 🐅",
-      "dob": "2002-09-26"
+      "dob": "2002-09-26",
+      "slug": "ostonya-thomas",
+      "id": 3
     },
     {
       "name": "Alyssa Gerhart",
       "avatar": "public/student-avatars/alyssa-avatar.jpg",
       "description1": "Computer Science; Benedict College",
       "description2": "Future Software Engineer.",
-      "dob": "2003-03-05"
+      "dob": "2003-03-05",
+      "slug": "alyssa-gerhart",
+      "id": 4
     },
     {
       "name": "Shantel Thomas",
       "avatar": "public/student-avatars/Shantel-avatar.jpeg",
       "description1": "Senior &ndash; Computer Science @ Benedict College ",
       "description2": "Software Engineer 👩🏾‍💻 ",
+      "dob": "1997-02-07",
+      "slug": "shantel-thomas",
+      "id": 5
       "dob": "1997-02-07"
     },
     {
@@ -40,6 +51,8 @@
       "avatar": "public/student-avatars/Marly-avatar.jpg",
       "description1": "Cybersecurity; Benedict College",
       "description2": "Future Software Engineer",
+      "slug": "marly-pierre",
+      "id": 6,
       "dob": "2003-04-23"
     }
   ]
