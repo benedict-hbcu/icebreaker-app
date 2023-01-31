@@ -44,6 +44,16 @@
       "dob": "1997-02-07",
       "slug": "shantel-thomas",
       "id": 5
+      "dob": "1997-02-07"
+    },
+    {
+      "name": "Marly Pierre",
+      "avatar": "public/student-avatars/Marly-avatar.jpg",
+      "description1": "Cybersecurity; Benedict College",
+      "description2": "Future Software Engineer",
+      "slug": "marly-pierre",
+      "id": 6,
+      "dob": "2003-04-23"
     }
   ]
 }
