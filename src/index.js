@@ -20,9 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       <div class="card-header">
         <img class="card-avatar" src="${student.avatar}" />
         <div>
-          <a href="/profile/${student.name
-            .replace(" ", "-")
-            .toLowerCase()}" class="card-title link">${student.name}</a>
+          <a href="/profile/${student.slug}" class="card-title link">${student.name}</a>
           <p class="card-subtitle line-1">
             ${student.description1}
           </p>
