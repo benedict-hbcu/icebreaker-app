@@ -63,6 +63,15 @@
       "slug": "shapelle-pinder",
       "id": 7,
       "dob": "2002-11-14"
-    }
+    },
+    { 
+      "name": "Dachanelle Anderson",
+      "avatar": "public/student-avatars/dacha_avatar.png",
+      "description1": "Seniorr; Computer Science; Benedict College",
+      "description2": "Software Engineer",
+      "slug": "dachanelle-anderson",
+      "id": 8,
+      "dob": "1998-08-01" 
+      }
   ]
 }
