@@ -44,7 +44,7 @@
       "dob": "1997-02-07",
       "slug": "shantel-thomas",
       "id": 5
-      "dob": "1997-02-07"
+      
     },
     {
       "name": "Marly Pierre",
@@ -54,6 +54,15 @@
       "slug": "marly-pierre",
       "id": 6,
       "dob": "2003-04-23"
+    },
+    {
+      "name": "Shapelle Pinder",
+      "avatar": "public/student-avatars/shapelle's avatar.png",
+      "description1": "Computer Science; Benedict College",
+      "description2": "Future Software Engineer",
+      "slug": "shapelle-pinder",
+      "id": 7,
+      "dob": "2002-11-14"
     }
   ]
 }
