@@ -41,6 +41,7 @@ console.log(nasaApiUrl)
         <div class="card-header">
           <img class="card-avatar" src="../${student.avatar}" />
           <div>
+          <p class="card-title link">${student.name}</p>
             <p class="card-subtitle line-1">
               ${student.description1}
             </p>
