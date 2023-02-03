@@ -103,14 +103,13 @@
   }
 
   .card-outter {
-    background-image: url();
+    background-image: url() no-repeat center center fixed;
     padding: 1rem;
     margin-bottom: 1rem;
     height: 300px;
     border-radius: 0.5rem;
     border: 1px solid #652c6b;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background-size: cover;
   }
   
   .card .card-header {

@@ -36,7 +36,7 @@ console.log(nasaApiUrl)
       document.getElementById("card-outter").style.backgroundImage=`url('${nasaImg.url}')`;
   
   const content = `
-    <div class = "card-outter" src= "${nasaImg.url}">
+    <div background-size: src= "${nasaImg.url}">
       <div class="card linked">
         <div class="card-header">
           <img class="card-avatar" src="../${student.avatar}" />
