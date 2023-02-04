@@ -10,30 +10,27 @@ async function getOstonya() {
         return console.error(error);
     }
 }
+async function getNasaBackground(date) {
+  try {
+    const nasaApiUrl = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2013-${date}`
+    const response = await fetch(nasaApiUrl, {
+      method: "GET"
+    });
+    const data2 = await response.json();
+    return data2;
+  } catch (error) {
+    return console.error(error);
+  }
+}
 document.addEventListener("DOMContentLoaded", async () => {
   const students = await getOstonya();
   const ostonyaProfile = document.getElementById("ostonya-profile");
   const student = students[0]
   const date = student.dob.split('-');
   const dateSplit = date[1]+"-"+date[2];
-const nasaApiUrl = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2013-${dateSplit}`;
-console.log(nasaApiUrl)
-
-  async function getNasaBackground() {
-    try {
-      const response = await fetch(nasaApiUrl, {
-        method: "GET"
-      });
-      const data2 = await response.json();
-      return data2;
-    } catch (error) {
-      return console.error(error);
-    }
-  }
-
-    
-      const nasaImg = await getNasaBackground();
-      document.getElementById("card-outter").style.backgroundImage=`url('${nasaImg.url}')`;
+  const nasaImg = await getNasaBackground(dateSplit);
+  
+  document.getElementById("card-outter").style.backgroundImage=`url('${nasaImg.url}')`;
   
   const content = `
     <div background-size: src= "${nasaImg.url}">
