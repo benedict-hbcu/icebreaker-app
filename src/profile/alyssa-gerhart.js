@@ -7,6 +7,16 @@ function getStudents() {
       .then((data) => data)
       .catch((error) => console.error(error));
   }
+// add.addEventListener(function getImage(){
+//   fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2022-03-05")
+//   .then(res => res.json())
+//   .then(result =>{
+//       console.log(result)
+//       Image.src = result.message
+//   })
+//   .catch(err=>console.log(err))
+// })
+
   
 document.addEventListener("DOMContentLoaded", async () => {
  const students = await getStudents();
@@ -20,7 +30,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div class="card-header">
           <img class="card-avatar" src="alyssa-avatar.JPG" />
           <div>
-            <a href="/profile/${student.slug}" class="card-title link">${student.name}</a>
             <p class="card-subtitle line-1">
               ${student.description1}
             </p>
