@@ -1,0 +1,220 @@
+/* Define css variables */
+:root {
+    --primary-color: #161b22;
+    --secondary-color: #0d1117;
+    --accent-color: #a0a0a0;
+    --accent-color-light: #fff;
+  }
+  
+  /* Define global styles */
+  html {
+    background-color: var(--secondary-color);
+    color: #a0a0a0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--accent-color-light);
+  }
+  
+  /* Navbar  */
+  nav {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+  }
+  
+  nav a {
+    color: var(--accent-color-light);
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  
+  nav .app-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--accent-color-light);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top: 1px solid #30363d;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-height: calc(100vh - 49px - 84px);
+  }
+  
+  .list-container {
+    background-color: #000;
+    width: 30%;
+    padding: 1rem;
+  }
+  
+  .list-container::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  .list-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .list-container::-webkit-scrollbar-thumb {
+    background-color: #30363d;
+  }
+  
+  .card {
+    background-color: transparent;
+    padding: 1rem;
+    width: 300px;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #2c6d61;
+  }
+
+  .card-outter {
+    background-image: url() no-repeat center center fixed;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: 300px;
+    border-radius: 0.5rem;
+    border: 1px solid #652c6b;
+    background-size: cover;
+  }
+  
+  .card .card-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .card-header .card-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--accent-color-light);
+    margin: 0;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+  }
+  
+  .card .card-header .card-subtitle {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .card .card-header .card-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+  }
+  
+  .card .card-header .card-subtitle.line-2 {
+    color: white;
+  }
+  
+  .card.linked {
+    position: relative;
+  }
+  
+  .card.linked a.link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .question {
+    margin: 0;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #30363d;
+  }
+  
+  .display {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .display .controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  
+  .display .controls .control-button {
+    background-color: var(--primary-color);
+    border: 1px solid #30363d;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--accent-color-light);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .display .controls .control-button {
+    background-color: var(--primary-color);
+    border: 1px solid #30363d;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--accent-color-light);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .display .controls .control-button:hover {
+    background-color: #21262d;
+  }
+  
+  .display .controls .control-button.absent {
+    color: #f85149;
+  }
+  
+  .display .controls .control-button.present {
+    color: #50fa7b;
+  }
+  
