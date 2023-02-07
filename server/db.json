@@ -71,6 +71,15 @@
       "slug": "metrid-okumu",
       "id": 8,
       "dob": "1999-01-02"
+    },
+    {
+      "name": "Bernadine Louis Pierre",
+      "avatar": "bernadine-avatar.jpg",
+      "description1": "Computer Science; Benedict College",
+      "description2": "Future Data Scientist ",
+      "slug": "bernadine-louis-pierre",
+      "id": 9,
+      "dob": "2002-01-20"
     }
   ]
 }
