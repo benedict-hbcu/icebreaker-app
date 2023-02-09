@@ -37,13 +37,15 @@ function getStudents() {
 
   //paring img from Nasa Api 
   const Shantelbanner = await getBanner(generatingDate(date));
-  //document.getElementsByClassName("Mycard").style.backgroundImage=`url('${Shantelbanner.url}')`;
+  document.getElementById(
+    "Mycard"
+  ).style.backgroundImage = `url('${Shantelbanner.url}')`;
   
   //generating the html  
   console.log(students[0])
   content = `
         <div class="card-header">
-          <img class="card-avatar" src="http://localhost:3000/${students[0].avatar}" />
+          <img class="card-avatar" src="../${students[0].avatar}" />
           <div>
             <a href="/profile/${students[0].slug}" class="card-title link">${students[0].name}</a>
             <p class="card-subtitle line-1">
