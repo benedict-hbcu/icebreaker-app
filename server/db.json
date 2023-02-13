@@ -44,7 +44,6 @@
       "dob": "1997-02-07",
       "slug": "shantel-thomas",
       "id": 5
-      
     },
     {
       "name": "Marly Pierre",
@@ -63,6 +62,15 @@
       "slug": "shapelle-pinder",
       "id": 7,
       "dob": "2002-11-14"
+    },
+    {
+      "name": "Metrid Okumu",
+      "avatar": "public/student-avatars/metrid-avatar.png",
+      "description1": "Computer Engineering; Benedict College",
+      "description2": "Future Computer Hardware Engineer ",
+      "slug": "metrid-okumu",
+      "id": 8,
+      "dob": "1999-01-02"
     },
     { 
       "name": "Dachanelle Anderson",
