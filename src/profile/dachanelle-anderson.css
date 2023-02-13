@@ -1,0 +1,8 @@
+.inner-container {
+
+    background-color: #000;
+    width: 30%;
+    padding: 1rem;
+    overflow-y: auto;
+    
+}

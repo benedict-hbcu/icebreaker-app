@@ -71,6 +71,15 @@
       "slug": "metrid-okumu",
       "id": 8,
       "dob": "1999-01-02"
-    }
+    },
+    { 
+      "name": "Dachanelle Anderson",
+      "avatar": "public/student-avatars/dacha_avatar.jpeg",
+      "description1": "Senior; Computer Science; Benedict College",
+      "description2": "Software Engineer",
+      "slug": "dachanelle-anderson",
+      "id": 8,
+      "dob": "1998-08-01 " 
+      }
   ]
 }
